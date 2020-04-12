@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+#include<conio.h>
+class intro
+{ 
+  public:
+  	intro()
+  	{  cout<<"my name is krishan kumar"<<endl;
+	}
+};
+class adress
+{  
+   intro i1;
+public:
+	adress()
+	{ cout<<"i am from mahendergarh";
+	}
+};
+int main()
+{ adress a1;
+   getch();
+}
+
